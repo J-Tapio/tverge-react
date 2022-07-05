@@ -1,0 +1,17 @@
+@import-normalize;
+@font-face {
+  font-family: 'Heroic';
+  src: url("https://ik.imagekit.io/htg3gsxgz/The_Verge/fonts/heroic-cond-vrg-web-ltd-md.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1656758408897") format('woff2');
+  text-rendering: 'optimizeLegibility';
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Heroic, Arial Narrow, Helvetica, sans-serif";
+  background-color: #000000;
+}
