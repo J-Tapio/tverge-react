@@ -21,7 +21,7 @@ export default function FeedNeutral({ article }) {
       sx={{
         display: "flex",
         height: {
-          xs: "100px",
+          xs: "105px",
           sm: "110px",
           md: "130px",
         },
@@ -31,14 +31,14 @@ export default function FeedNeutral({ article }) {
         component="img"
         src={Image}
         alt={"News"}
-        sx={{ objectFit: "cover", minWidth: "200px", maxWidth: "200px" }}
+        sx={{ objectFit: "cover", minWidth: {xs: "100px", sm:"200px"}, maxWidth: {xs: "100px", sm:"200px"} }}
       />
       <Box
         sx={{
           borderTop: "1px solid #d9d9d9",
           width: "100%",
           marginRight: {
-            xs: "2rem",
+            xs: "0.15rem",
             md: "0",
           },
         }}
@@ -47,7 +47,7 @@ export default function FeedNeutral({ article }) {
           sx={{
             display: "flex",
             flexDirection: "column",
-            marginLeft: "1.125rem",
+            marginLeft: {xs: ".5rem", sm:"1.125rem"},
             marginTop: {
               xs: "0.2rem",
               sm: "0.5rem",
@@ -58,9 +58,9 @@ export default function FeedNeutral({ article }) {
           <Typography
             variant="p"
             sx={{
-              fontWeight: "600",
+              fontWeight: 600,
               fontSize: {
-                xs: "0.9rem",
+                xs: "0.8rem",
                 md: "1rem",
                 lg: "1.1rem",
               },
@@ -94,7 +94,7 @@ export default function FeedNeutral({ article }) {
               },
               "& .news-author": {
                 color: "#560761",
-                fontWeight: "600",
+                fontWeight: {xs: "400", sm:"600"},
               },
             }}
           >

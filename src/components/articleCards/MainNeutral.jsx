@@ -22,15 +22,18 @@ function MainNeutral({article}) {
         "& .main-news-base-title-section": {
           display: "flex",
           flexDirection: "column",
-          justifyContent: "top",
+          justifyContent: {
+            xs: "center",
+            sm: "top"
+          },
           backgroundColor: "#000000",
           height: {
             md: "40%",
           },
           width: "100%",
           padding: {
-            xs: "0.8rem",
-            sm: "1rem",
+            xs: "1rem",
+            //sm: "1rem",
           },
         },
         "& img": {

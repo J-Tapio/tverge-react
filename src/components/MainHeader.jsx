@@ -69,7 +69,7 @@ function MainHeader() {
             display: "flex",
             justifyContent: "center",
             fontSize: {
-              xs: "1rem",
+              xs: ".6rem",
               sm: "1.1rem",
             },
             fontWeight: "500",

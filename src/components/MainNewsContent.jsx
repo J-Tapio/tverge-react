@@ -40,7 +40,7 @@ export default function MainNewsContent() {
   return (
     <Grid
       container
-      columnSpacing={0.28}
+      columnSpacing={{xs: 0, sm:0.28}}
       rowSpacing={0.28}
       sx={{
         backgroundImage:
@@ -56,7 +56,13 @@ export default function MainNewsContent() {
           sm: "1rem",
           md: "5rem",
         },
+        // Needed for adjusting the grid inside the background.
         paddingRight: "0.15rem",
+        //Padding left needed only for mobile-view.
+        paddingLeft: {
+          xs: "0.15rem",
+          sm: "0rem"
+        }
       }}
     >
       {news.length > 0 &&

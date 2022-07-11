@@ -38,12 +38,12 @@ export default function FeedNewsContent() {
   return (
     <Grid
       container
-      spacing={2}
+      spacing={{xs: 0, sm: 2}}
       sx={{
         backgroundColor: "#fff",
         paddingTop: "3rem",
         paddingX: {
-          xs: "1rem",
+          xs: ".15rem",
           md: "3rem"
         },
         width: "100%",

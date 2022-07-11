@@ -35,7 +35,7 @@ export default function FeedFeatured({article, inFeed}) {
           },
           width: "100%",
           padding: {
-            xs: "0.8rem",
+            xs: "0.8rem 0.5rem",
             sm: "1rem",
           },
         },
@@ -54,7 +54,7 @@ export default function FeedFeatured({article, inFeed}) {
           letterSpacing: "-.008rem",
           transition: "0.25s",
           fontSize: {
-            xs: "0.8rem",
+            xs: "1rem",
             sm: "1rem",
             md: "1rem",
             lg: "1.3rem",
@@ -67,9 +67,13 @@ export default function FeedFeatured({article, inFeed}) {
         },
         "& .pullquote": {
           paddingTop: {
+            xs: ".4rem",
+            sm: "0rem", // check
+            md: "0rem", //check
             lg: ".3rem",
           },
           fontSize: {
+            xs: "0.8rem",
             sm: "0.8rem",
             lg: "0.9rem",
           },
@@ -81,7 +85,7 @@ export default function FeedFeatured({article, inFeed}) {
             sm: "0.9rem",
             lg: "1rem",
           },
-          marginTop: "0.4rem",
+          paddingTop: "0.4rem",
           "& span": {
             color: "#e2127A",
           },
