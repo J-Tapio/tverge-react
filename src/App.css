@@ -5,6 +5,13 @@
   text-rendering: 'optimizeLegibility';
 }
 
+@font-face {
+  font-family: 'adelle-sans';
+  src: url("https://ik.imagekit.io/htg3gsxgz/The_Verge/fonts/AdelleSans-Semibold.woff2?ik-sdk-version=javascript-1.4.3&updatedAt=1656758259912") format('woff2');
+  font-weight: 'bold';
+  text-rendering: 'optimizeLegibility';
+}
+
 *, :after, :before {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +19,6 @@
 }
 
 body {
-  font-family: "Heroic, Arial Narrow, Helvetica, sans-serif";
+  font-family: "Heroic, Arial Narrow, adelle-sans, Helvetica, sans-serif";
   background-color: #000000;
 }

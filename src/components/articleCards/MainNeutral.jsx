@@ -24,7 +24,7 @@ function MainNeutral({article}) {
           flexDirection: "column",
           justifyContent: {
             xs: "center",
-            sm: "top"
+            md: "start",
           },
           backgroundColor: "#000000",
           height: {
@@ -33,7 +33,6 @@ function MainNeutral({article}) {
           width: "100%",
           padding: {
             xs: "1rem",
-            //sm: "1rem",
           },
         },
         "& img": {
@@ -50,7 +49,7 @@ function MainNeutral({article}) {
           transition: "0.25s",
           fontSize: {
             xs: "0.8rem",
-            sm: "1rem",
+            sm: "1.1rem",
             md: "1rem",
             lg: "1.2rem",
             xl: "1.3rem"
@@ -63,9 +62,12 @@ function MainNeutral({article}) {
         },
         "& .main-news-base-author": {
           textTransform: "uppercase",
+          fontFamily: 'Heroic',
           fontSize: {
-            xs: "0.8rem",
-            sm: "1rem",
+            xs: "0.9rem",
+            sm: "1.05rem",
+            md: "1.08rem",
+            lg: "1.1rem",
             xl: "1.2rem",
           },
           marginTop: "0.4rem",

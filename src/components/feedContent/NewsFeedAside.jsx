@@ -206,6 +206,8 @@ export default function NewsFeedAside() {
   return (
     <Box
       sx={{
+        //Not preferred way but adds gap between grid elements
+        marginLeft: "2rem",
         marginTop: ".5rem",
         paddingBottom: "3rem",
         position: "relative",

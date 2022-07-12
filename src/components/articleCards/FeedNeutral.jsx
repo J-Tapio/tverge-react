@@ -99,7 +99,7 @@ export default function FeedNeutral({ article }) {
             }}
           >
             <Typography variant="p">
-              By <span className="news-author">{Author}</span>
+              By <span className="news-author">{Author ? Author : "The Verge"}</span>
             </Typography>
             <span className="news-info--divider">|</span>
             <Typography variant="p">

@@ -69,9 +69,12 @@ function MainHeader() {
             display: "flex",
             justifyContent: "center",
             fontSize: {
-              xs: ".6rem",
-              sm: "1.1rem",
+              xs: "1rem",
+              sm: "1.3rem",
+              md: "1.5rem",
+              lg: "1.8rem"
             },
+            fontFamily: 'Heroic',
             fontWeight: "500",
             color: "#ffffff",
             textTransform: "uppercase",

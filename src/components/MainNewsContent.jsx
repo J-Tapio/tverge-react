@@ -40,29 +40,24 @@ export default function MainNewsContent() {
   return (
     <Grid
       container
-      columnSpacing={{xs: 0, sm:0.28}}
-      rowSpacing={0.28}
+      rowGap={0.25}
+      columnSpacing={0.25}
       sx={{
         backgroundImage:
           "linear-gradient(90deg, rgb(247, 198, 38) 15%, rgb(246, 140, 47) 40%, rgb(229, 18, 125) 85%)",
         color: "white",
         width: "100%",
         maxWidth: "1300px",
-        margin: {
-          sm: "5rem 0 0 0",
-          md: "5rem auto 0",
-        },
         marginTop: {
-          sm: "1rem",
+          sm: "2rem",
           md: "5rem",
+          lg: "5rem",
         },
-        // Needed for adjusting the grid inside the background.
-        paddingRight: "0.15rem",
-        //Padding left needed only for mobile-view.
-        paddingLeft: {
-          xs: "0.15rem",
-          sm: "0rem"
-        }
+        marginX: {
+          xs: "auto"
+        },
+        paddingTop: "0.15rem",
+        paddingRight: "0.12rem"
       }}
     >
       {news.length > 0 &&

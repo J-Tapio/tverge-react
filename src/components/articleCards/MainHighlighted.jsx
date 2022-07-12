@@ -48,11 +48,12 @@ function MainHighlighted({reverse, article}) {
           },
         },
         "& .news-title-focused": {
+          //fontFamily: 'adelle-sans',
           fontWeight: 600,
           fontSize: {
             xs: "0.9rem",
-            sm: "1rem",
-            md: "1.4rem",
+            sm: "1.3rem",
+            md: "2.25rem",
             lg: "2.5rem",
           },
           letterSpacing: "0.008rem",
@@ -66,11 +67,12 @@ function MainHighlighted({reverse, article}) {
         },
         "& .news-title-focused-author": {
           marginTop: "0.3rem",
-          fontWeight: "600",
+          fontFamily: "Heroic",
+          fontWeight: "400",
           textTransform: "uppercase",
           fontSize: {
-            xs: "0.8rem",
-            sm: "1rem",
+            xs: ".9rem",
+            sm: "1.1rem",
             xl: "1.2rem",
           },
         },
