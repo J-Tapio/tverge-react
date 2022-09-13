@@ -1,5 +1,9 @@
 # The Verge Clone
 
+## Important
+
+As of 12/09/2022 The Verge has made an overhaul to their site. Hence, the backend and scraper for news titles, links and images is not working anymore. Shame, old website looked better in my opinion.
+
 ## What is this project?
 
 This is a project where I wanted to learn use of [MaterialUI](https://www.mui.com) and clone [The Verge](https://www.theverge.com) frontpage. [Backend](https://github.com/J-Tapio/go-tverge-be) I wrote with Go.
